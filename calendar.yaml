@@ -1,0 +1,54 @@
+title: Semester 2
+weeks:
+  - 2024-01-15:
+      title: 1
+      type: tuition
+  - 2024-01-22:
+      title: 2
+      type: tuition
+  - 2024-01-29:
+      title: 3
+      type: tuition
+  - 2024-02-05:
+      title: 4
+      type: tuition
+  - 2024-02-12:
+      title: Midterm
+      type: reading
+  - 2024-02-19:
+      title: 5
+      type: tuition
+  - 2024-02-26:
+      title: 6
+      type: tuition
+  - 2024-03-04:
+      title: 7
+      type: tuition
+  - 2024-03-11:
+      title: 8
+      type: tuition
+  - 2024-03-18:
+      title: 9
+      type: tuition
+  - 2024-03-25:
+      title: Easter
+      type: reading
+     
+  - 2024-04-01:
+      title: Easter
+      type: reading
+  - 2024-04-08:
+      title: 10
+      type: tuition
+  - 2024-04-15:
+      title: 11
+      type: tuition
+  - 2024-04-22:
+      title: 12
+      type: tuition
+  - 2024-04-29:
+      title: Study Week
+      type: reading
+  - 2024-05-06:
+      title: Exam Week
+      type: reading
