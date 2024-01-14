@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1705074331 "b-desc-to-module.xdv" "b-desc-to-module.pdf" "b-desc-to-module" 1705074331 0
-  "b-desc-to-module.xdv" 1705074331 162612 037f0bc4ac411eef110ffdd454c9d773 "xelatex"
+["xdvipdfmx"] 1705264092 "b-desc-to-module.xdv" "b-desc-to-module.pdf" "b-desc-to-module" 1705264092 0
+  "b-desc-to-module.xdv" 1705264092 162972 e4a19173c177e5a5d45541608b511ea5 "xelatex"
   (generated)
   "b-desc-to-module.pdf"
   (rewritten before read)
-["xelatex"] 1705074331 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic01-introduction/unit-01a-lectures/talk-1/b-desc-to-module.tex" "b-desc-to-module.xdv" "b-desc-to-module" 1705074331 0
-  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic01-introduction/unit-01a-lectures/talk-1/b-desc-to-module.tex" 1705074330 16526 9f3324c60bc0c14fe6fbff2f8a5435f1 ""
+["xelatex"] 1705264092 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic01-introduction/unit-01a-lectures/talk-1/b-desc-to-module.tex" "b-desc-to-module.xdv" "b-desc-to-module" 1705264092 0
+  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic01-introduction/unit-01a-lectures/talk-1/b-desc-to-module.tex" 1705264091 16532 9d9328d9fc2d032301618f6d0c7be3c6 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -65,10 +65,10 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1704925870 10502814 4579b6be41004c192c05ee5984a35f35 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "b-desc-to-module.aux" 1705074331 2389 941a5dee989e9eac865ddb74ca9d4d41 "xelatex"
-  "b-desc-to-module.out" 1705074331 2004 c637db8a2987e3bf97f03739d638906a "xelatex"
-  "b-desc-to-module.tex" 1705074330 16526 9f3324c60bc0c14fe6fbff2f8a5435f1 ""
-  "b-desc-to-module.toc" 1705074331 979 978cf153cb68024d6c7fb9fe122c2e14 "xelatex"
+  "b-desc-to-module.aux" 1705264092 2389 941a5dee989e9eac865ddb74ca9d4d41 "xelatex"
+  "b-desc-to-module.out" 1705264092 2004 c637db8a2987e3bf97f03739d638906a "xelatex"
+  "b-desc-to-module.tex" 1705264091 16532 9d9328d9fc2d032301618f6d0c7be3c6 ""
+  "b-desc-to-module.toc" 1705264092 979 978cf153cb68024d6c7fb9fe122c2e14 "xelatex"
   "img/RGB.png" 1696251142 27190 54979136f1fb3ac5ac6fe9954142053e ""
   "img/mairead-avatar.jpeg" 1696251142 43828 17f5628978b0ac70a5f4b6cb70fb7ab2 ""
   "img/tutors.png" 1696251142 201463 d31e575897c58e176756b32a27f373a7 ""
