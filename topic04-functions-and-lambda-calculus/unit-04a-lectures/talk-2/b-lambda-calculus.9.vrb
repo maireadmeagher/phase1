@@ -1,0 +1,17 @@
+\frametitle{Variables}
+
+    Variables can be
+    \begin{itemize}
+        \item bound or
+        \item free
+    \end{itemize}
+
+        as the $\lambda$-calculus assumes an infinite universe of free
+    variables. They are bound to functions in an environment, then they become bound by usage in an abstraction. \\
+    \pause
+    For example, in the $\lambda$-expression:
+    \begin{center}
+    $(\lambda x. x*y)$
+    \end{center}
+    \pause
+    x is bound by $\lambda$ over the body $x*y$, but $y$ is a free variable.When we apply this function to an argument, nothing can be done with the $y$. It remains irreducible.

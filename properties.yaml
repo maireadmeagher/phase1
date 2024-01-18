@@ -1,17 +1,16 @@
 highlightstyle : railscasts
-courseurl      : https://reader.tutors.dev/course/fp-setu-23.netlify.app
+courseurl      : https://tutors.dev/course/fun-prog-24
 credits        : Ms. Mairead Meagher, SETU. 
-moodle         : https://moodle.wit.ie/course/view.php?id=192397
-slack          : https://join.slack.com/t/functionalpro-5ox7019/shared_invite/zt-1ng7ff89t-ft1pWDBPPwM1fI4Cbq8A_w
-ignorepin      : 1234
+moodle         : https://moodle.wit.ie/course/view.php?id=200811
+slack          :https://join.slack.com/t/funprog24/shared_invite/zt-2aly9cbup-0ZIces2WFd9thc9DpCvkLw
 ignore         : 
 
 
 - topic00-assignments
 #- topic01-introduction
 #- topic02-first-steps
-- topic03-types-and-classes
-- topic04-functions-and-lambda-calculus
+#- topic03-types-and-classes
+#- topic04-functions-and-lambda-calculus
 - topic05-list-comprehensions
 - topic06-recursive-functions
 - topic07-structuring-programs
