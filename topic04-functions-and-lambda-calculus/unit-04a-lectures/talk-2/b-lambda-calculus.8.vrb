@@ -1,0 +1,25 @@
+\frametitle{More Beta reduction}
+Once more, but this time we’ll add another argument:
+\begin{center}
+$(\lambda x.x)(\lambda y.y)z$
+\end{center}
+\pause
+Applications in the lambda calculus are left associative. That is, unless specific parentheses suggest otherwise, they associate, or group, to the left. So, it can be rewritten as:
+\begin{center}
+$((\lambda x.x)(\lambda y.y)) z$
+\end{center}
+\pause
+The $\beta$-reduction is as follows:
+\begin{center}
+$((\lambda x.x)(\lambda y.y)) z$ \\
+
+\hspace{.22in}$[x := ( \lambda y. y) ] $\\
+
+\hspace{.58in}$ (\lambda y.y) z $ \\
+
+\hspace{.58in}$[y:= z ] $\\
+
+\hspace{1in}$z$ \\
+\end{center}
+\pause
+We can't reduce this any further as there is nothing left to apply, and we know nothing about $z$.

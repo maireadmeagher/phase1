@@ -1,0 +1,20 @@
+\frametitle{Lambda Caculus in Haskell}
+           \section {Using lambda Calculus in Haskell}
+           How do we write lambda expressions in Haskell?
+           \pause
+           \begin{center}
+           \begin{tabular}{ | c | c |  c| c|}
+             \hline
+             Named &Lambda Calculus & Lambda Calculus & Result \\
+             Function&  (maths)& (Haskell) & \\
+
+             \hline
+             $f \ x = x+1 $&( $\lambda x.x+1)$ 2 & $ (\setminus x \rightarrow  x+1)$ 2 & 3\\
+             $f \ x \ y = x*y  $ &( $\lambda x \ y .x*y)$ 2\ 3 & $ (\setminus x \ y \rightarrow  x*y )$ 2 \ 3 & 6\\
+            %$( $\lambda f. zipWith \ f [1 \ldots 5] [1\ldots 5]) $  $(*)$ & $ (\setminus f  \rightarrow zipWith \ f [1 \ldots 5] [1\ldots 5]))$ $(*)$  \\
+             $f \ xs = `c`:xs$ &( $\lambda xs. `c`:xs) $  \ "at"  & $ (\setminus xs \rightarrow  `c`:xs)$  \ "at" & "cat"\\
+             \hline
+           \end{tabular}
+           \end{center}
+           \pause
+           Lambda functions are used extensively in Haskell, notably with Higher Order Functions.

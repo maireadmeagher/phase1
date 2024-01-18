@@ -1,0 +1,12 @@
+\frametitle{Multiple Arguments }
+            \section{Multiple arguments}
+            Each lambda can only bind one parameter and can only accept one argument. Functions that require multiple arguments have multiple, nested heads. When you apply it once and eliminate the first (leftmost) head, the next one is applied and so on. This means that the following
+            \begin{center}
+            $\lambda xy.xy$
+            \pause
+            \end{center}
+            is simply syntactic sugar for
+            \begin{center}
+            $\lambda x(\lambda y.xy)$
+            \end{center}
+
