@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1705573861 "b-exercises-types-and-classes.xdv" "b-exercises-types-and-classes.pdf" "b-exercises-types-and-classes" 1705573861 0
-  "b-exercises-types-and-classes.xdv" 1705573861 16120 ed90b86c7dc3f4c2659310626e37cbd9 "xelatex"
+["xdvipdfmx"] 1706735073 "b-exercises-types-and-classes.xdv" "b-exercises-types-and-classes.pdf" "b-exercises-types-and-classes" 1706735073 0
+  "b-exercises-types-and-classes.xdv" 1706735073 31880 e861761d08e756d0cb987b8454912197 "xelatex"
   (generated)
   "b-exercises-types-and-classes.pdf"
   (rewritten before read)
-["xelatex"] 1705573860 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic03-types-and-classes/unit-03b-labs-exercises/talk/b-exercises-types-and-classes.tex" "b-exercises-types-and-classes.xdv" "b-exercises-types-and-classes" 1705573861 0
-  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic03-types-and-classes/unit-03b-labs-exercises/talk/b-exercises-types-and-classes.tex" 1705573859 4071 76ca5d48ea1f25ef2e953b535e4db80f ""
+["xelatex"] 1706735073 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic03-types-and-classes/unit-03b-labs-exercises/talk/b-exercises-types-and-classes.tex" "b-exercises-types-and-classes.xdv" "b-exercises-types-and-classes" 1706735073 0
+  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic03-types-and-classes/unit-03b-labs-exercises/talk/b-exercises-types-and-classes.tex" 1706735072 4061 b8e43c69456c33668f6b05c05d236e6e ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls" 1667332637 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty" 1654720880 5319 48d7f3cfa322abd2788e3c09d624b922 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/size10.clo" 1667332637 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
@@ -31,8 +31,8 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1704925870 10502814 4579b6be41004c192c05ee5984a35f35 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "b-exercises-types-and-classes.aux" 1705573861 449 3e5c6e152e8db4f0cfcb172661d3a626 "xelatex"
-  "b-exercises-types-and-classes.tex" 1705573859 4071 76ca5d48ea1f25ef2e953b535e4db80f ""
+  "b-exercises-types-and-classes.aux" 1706735073 449 dbff9e3bcdc42e30cb84c24e2548a124 "xelatex"
+  "b-exercises-types-and-classes.tex" 1706735072 4061 b8e43c69456c33668f6b05c05d236e6e ""
   "img/01.jpg" 1696251142 16767 4de633b7dca15bc878093324096c7f77 ""
   (generated)
   "b-exercises-types-and-classes.aux"

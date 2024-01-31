@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1705574009 "b-lambda-calculus.xdv" "b-lambda-calculus.pdf" "b-lambda-calculus" 1705574010 0
-  "b-lambda-calculus.xdv" 1705574009 603372 66e1752e4e41f84f9bd092e711ce55c8 "xelatex"
+["xdvipdfmx"] 1706735534 "b-lambda-calculus.xdv" "b-lambda-calculus.pdf" "b-lambda-calculus" 1706735534 0
+  "b-lambda-calculus.xdv" 1706735534 603260 41df3c42036102e327ad13f29c3819d2 "xelatex"
   (generated)
   "b-lambda-calculus.pdf"
   (rewritten before read)
-["xelatex"] 1705574008 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04a-lectures/talk-2/b-lambda-calculus.tex" "b-lambda-calculus.xdv" "b-lambda-calculus" 1705574010 0
-  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04a-lectures/talk-2/b-lambda-calculus.tex" 1696251142 11382 a12ab7ecb9eaa4d546c75de1acd4b7a3 ""
+["xelatex"] 1706735532 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04a-lectures/talk-2/b-lambda-calculus.tex" "b-lambda-calculus.xdv" "b-lambda-calculus" 1706735534 0
+  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04a-lectures/talk-2/b-lambda-calculus.tex" 1706735532 11508 147d7e4de71226558bcf1f31a556751a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -205,18 +205,18 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1704925870 10502814 4579b6be41004c192c05ee5984a35f35 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "b-lambda-calculus.10.vrb" 1705574009 576 bf0fcbf6af243376aacf254eaf59fe06 "xelatex"
-  "b-lambda-calculus.11.vrb" 1705574009 592 2449e82942a2efe6fa4f0323b6e7cdb0 "xelatex"
-  "b-lambda-calculus.12.vrb" 1705574009 1070 e171711ab5e4d9f856ff6a82ab9b8ab2 "xelatex"
-  "b-lambda-calculus.5.vrb" 1705574009 339 5a30e8167a750bcd8911a335b1f92d80 "xelatex"
-  "b-lambda-calculus.6.vrb" 1705574009 542 4736a3c0dc00dfee18aeb721a9dc08e7 "xelatex"
-  "b-lambda-calculus.7.vrb" 1705574009 796 1e6a47c3a04037d989e618fccca7cd1c "xelatex"
-  "b-lambda-calculus.8.vrb" 1705574009 740 3c55f757576dd6be7e3636c353597d44 "xelatex"
-  "b-lambda-calculus.9.vrb" 1705574009 618 12067f87ae7f7fb171239311ea5eb27b "xelatex"
-  "b-lambda-calculus.aux" 1705574009 10640 7706e1741c243789c92aa9dffb8d6846 "xelatex"
-  "b-lambda-calculus.nav" 1705574009 3662 cd06a9899617eb43bbf5c92b4ba51d98 "xelatex"
-  "b-lambda-calculus.out" 1705574009 1452 c2b5cd6fa76da41ff963cdba22f73f82 "xelatex"
-  "b-lambda-calculus.tex" 1696251142 11382 a12ab7ecb9eaa4d546c75de1acd4b7a3 ""
+  "b-lambda-calculus.10.vrb" 1706735533 576 bf0fcbf6af243376aacf254eaf59fe06 "xelatex"
+  "b-lambda-calculus.11.vrb" 1706735533 592 2449e82942a2efe6fa4f0323b6e7cdb0 "xelatex"
+  "b-lambda-calculus.12.vrb" 1706735533 1070 e171711ab5e4d9f856ff6a82ab9b8ab2 "xelatex"
+  "b-lambda-calculus.5.vrb" 1706735533 339 5a30e8167a750bcd8911a335b1f92d80 "xelatex"
+  "b-lambda-calculus.6.vrb" 1706735533 542 4736a3c0dc00dfee18aeb721a9dc08e7 "xelatex"
+  "b-lambda-calculus.7.vrb" 1706735533 796 1e6a47c3a04037d989e618fccca7cd1c "xelatex"
+  "b-lambda-calculus.8.vrb" 1706735533 740 3c55f757576dd6be7e3636c353597d44 "xelatex"
+  "b-lambda-calculus.9.vrb" 1706735533 618 12067f87ae7f7fb171239311ea5eb27b "xelatex"
+  "b-lambda-calculus.aux" 1706735534 10640 7706e1741c243789c92aa9dffb8d6846 "xelatex"
+  "b-lambda-calculus.nav" 1706735534 3662 cd06a9899617eb43bbf5c92b4ba51d98 "xelatex"
+  "b-lambda-calculus.out" 1706735534 1452 c2b5cd6fa76da41ff963cdba22f73f82 "xelatex"
+  "b-lambda-calculus.tex" 1706735532 11508 147d7e4de71226558bcf1f31a556751a ""
   "img/01.png" 1696251142 20237 d03b79322174f6fdaa283af0aa1d71f6 ""
   "img/b-lambda-calculus.png" 1696251142 32685 8c05aff1d37c7d68ca72c81608b835a3 ""
   (generated)
