@@ -5,8 +5,8 @@ moodle         : https://moodle.wit.ie/course/view.php?id=200811
 slack          : https://join.slack.com/t/funprog24/shared_invite/zt-2aly9cbup-0ZIces2WFd9thc9DpCvkLw
 ignore         : 
 
-
-- topic00-assignments
+- topic000-assignments wip
+#topic00-assignments
 #- topic01-introduction
 #- topic02-first-steps
 #- topic03-types-and-classes
