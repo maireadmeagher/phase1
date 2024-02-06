@@ -1,0 +1,67 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 39a448bde47164034009fd1c948d0de47ad17bcf175bf57d5ad3c04bc5d3014f
+
+name:           online2
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/online2#readme>
+homepage:       https://github.com/githubuser/online2#readme
+bug-reports:    https://github.com/githubuser/online2/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2021 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/online2
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_online2
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable online2-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_online2
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , bytestring
+    , cassava
+    , online2
+    , text
+    , time
+    , vector
+  default-language: Haskell2010
+
+test-suite online2-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_online2
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , online2
+  default-language: Haskell2010
