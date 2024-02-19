@@ -3,6 +3,12 @@ import System.Environment
 import qualified Data.Text as T
 import Lib
 import ModuleData
+import Text.Pandoc
+import Text.Pandoc.Builder(plain, text)
+import Text.Pandoc.Writers.Docx (writeDocx)
+import qualified Data.ByteString.Lazy as BL (writeFile)
+import Data.Text (pack)
+import qualified Data.Foldable as FL (toList) 
 
 main :: IO ()
 main = do
@@ -11,34 +17,36 @@ main = do
                             -- if you wosh to use getArgs outside of stack, you need to use 
                             --  :set args "data.csv" then 
                             -- run main
-     csvData <- readFile file --  csvData :: String so to use this you need to preprocess this 
-
-    -- print  $ dataWithAverages 
-
-     print $ "_______HEADER_________"
-
-     print $ getHeaderData csvData
-
-     print $ "________DATA________"
+     moduleData <- readFile file --  csvData :: String so to use this you need to preprocess this 
 
 
-     -- print $ head $ clean  $ getModuleData csvData
+     print $   getModuleData moduleData
+     let doc = plain (text (pack ((getHeaderData moduleData) ++ flatten' (getModuleData moduleData))) )-- Create a Pandoc document
+     docx <- runIO $ writeDocx def (Pandoc nullMeta (FL.toList doc)) -- Convert the document to Docx format
+     case docx of
+        Left e -> error (show e) -- If there's an error, throw it
+        Right bs -> BL.writeFile "output.docx" bs -- Otherwise, write the ByteString to a file
 
-     print $ "_________MODULES_________"
-     print $  getModuleData csvData
-     -- print $ take 20$ tail  $ clean csvData --(splitOn' "\n" csvData)
-     -- print $ getModuleName (getHeaderRow $ T.pack csvData)
 
-     print $ "_________INDICATIVE MODULE CONTENT _________"
-     print $ getModuleIndContent $  getModuleData csvData
+--      -- print $ "_________INDICATIVE MODULE CONTENT _________"
+--      -- print $ getModuleIndContent $  getModuleData csvData
 
 getModuleData :: String -> [String]
 getModuleData  ms =  clean $  dropWhile (/= '\n') ms
 
+
+
 getHeaderData :: String -> String
 getHeaderData = takeWhile (/= '\n')
 
-myPrint :: [String] -> IO ()
+-- myPrint :: [String] -> IO ()
 
-myPrint [] = return ()
-myPrint (x:xs) =  putStrLn x >> myPrint xs 
+-- myPrint [] = return ()
+-- myPrint (x:xs) =  putStrLn x >> myPrint xs 
+
+flatten' :: [String] -> String
+flatten' [] = []
+flatten' (x:xs) = x ++ flatten' xs
+
+
+

@@ -7,7 +7,8 @@ import qualified Data.Char as C
 data ModuleModel = ModuleModel {
     moduleCode :: String,
     moduleFullTitle :: String,
-    moduleIndContent :: [String]
+    moduleIndContent :: [String],
+    moduleLearningOutcomes :: [String]
     -- modulePath :: String,
     -- moduleImports :: [String],
     -- moduleExports :: [String],
@@ -24,7 +25,8 @@ moduleData :: [String] -> ModuleModel
 moduleData t = ModuleModel {
     moduleCode = getModuleCode t,
     moduleFullTitle = getModuleFullTitle t,
-    moduleIndContent= getModuleIndContent t
+    moduleIndContent= getModuleIndContent t,
+    moduleLearningOutcomes = getModuleLearningOutcomes t
     -- modulePath = getModulePath t,
     -- moduleImports = getModuleImports t,
     -- moduleExports = getModuleExports t,
@@ -35,8 +37,8 @@ moduleData t = ModuleModel {
     -- moduleInstanceDeclarations = getModuleInstanceDeclarations t,
     -- moduleComment = getModuleComment t
 }
-
-getModuleCode :: [String] -> String
+-- These are the functions that will be used to extract the data from the module description for one module
+getModuleCode :: [String] -> String   -- no validation yet
 getModuleCode (t:_) = if True then t else "Module heading is missing or incorrectly formatted"
 
 getModuleFullTitle :: [String] -> String
@@ -50,7 +52,12 @@ getModuleIndContent :: [String] -> [String]
 getModuleIndContent (_:_:t:_)  =  
     case (splitOn' "\n" t) of
        xs  -> if True then xs else ["Indicative content incorrectly formatted"]
-       _ -> ["Module heading is missing"]
+       _ -> ["Indicative content is missing"]
+getModuleLearningOutcomes :: [String] -> [String]
+getModuleLearningOutcomes (_:_:_:t:_)  =  
+    case (splitOn' "\n" t) of
+       xs  -> if True then xs else ["Indicative content incorrectly formatted"]
+       _ -> ["Module learning outcomes are missing"]
 splitOn  :: Char -> String -> [String]
 splitOn _ "" = [""]
 splitOn  dl (c:cs) = if dl == c then   "" : splitOn  dl cs

@@ -11,7 +11,7 @@ ignore         :
 #- topic02-first-steps
 #- topic03-types-and-classes
 #- topic04-functions-and-lambda-calculus
-- topic05-list-comprehensions
+#- topic05-list-comprehensions
 - topic06-recursive-functions
 - topic07-structuring-programs
 - topic08-higher-order-functions
