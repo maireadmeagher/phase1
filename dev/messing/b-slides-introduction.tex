@@ -1,0 +1,96 @@
+\PassOptionsToClass{10pt} {beamer}
+\documentclass{beamerswitch}
+\mode<presentation>  {
+ \usetheme{Warsaw}
+ }
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+
+
+\usepackage[mathrm,colour,cntbysection]{czt}
+\setbeamertemplate{frametitle}[default][center]
+\setbeamertemplate{footline}[text line]{%
+  \parbox{\linewidth}{\vspace*{-8pt}\copyright WIT\hfill\insertshortauthor\hfill\insertpagenumber}}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{caption}[numbered]
+
+\author[MM]{Mairead Meagher}
+
+ \logo{\includegraphics[height=0.8cm]{img/WIT-Logo.jpg}\vspace{220pt}}
+
+%Information to be included in the title page:
+\title{Formal Methods - An Introduction}
+\institute{Waterford Institute of Technology, }
+\date{2017}
+\titlegraphic{\includegraphics[width=\textwidth,height=.5\textheight]{img/WIT.jpg} }
+
+
+ \begin{document}
+ \mode<all>
+\frame{\titlepage}
+ %page one
+\begin{frame}{Overview of Formal Methods}
+\article {This is just some nonsense that I've written for the article}
+\begin{itemize}
+  \item Motivation for Formal Methods
+  	\begin{itemize}
+		\item Safety-critical and Mission-critical systems
+		\item Why systems fail
+		\item Why writing correct software is difficult 
+		\item Organizational and Technical Approaches
+	\end{itemize}
+  \item What are Formal Methods? 
+	\begin{itemize}
+	\item Languages,Tools and Methodologies
+	\item Application Domains and Environment Assumptions
+	\end{itemize}
+  \item Stages of the Formal Process
+  \begin{itemize}
+  	\item Formal Specification
+	\item Design and Development
+   \end{itemize}
+  \end{itemize}
+  \end{frame}
+  \begin{frame} {Overview of Safe, Secure Systems and Formal Methods}
+  \begin{itemize}
+   \item Formal Specification 
+	\begin{itemize}
+   		\item Specification Styles
+		  \begin{itemize}
+		    	\item Declarative vs operational specifications 
+			\item Partial vs Total models 
+			\item Deterministic vs non-deterministic models 
+			\item Abstract vs concrete models
+		\end{itemize}
+		\item Types of Formal Specification Notations 
+		\begin{itemize}
+			\item Model-BasedSpecifications 
+			\item Algebraic Specification Languages 
+			\item ProcessAlgebra 
+		\end{itemize}
+	\end{itemize}	
+
+\end{itemize}
+\end{frame}
+ 
+\begin{frame}{Overview of Safe, Secure Systems and Formal Methods}
+ \begin{itemize}
+  	\item The Z Notation
+         	\begin{itemize}
+         		\item What is a Z Specification?
+        	         	\item Where did it come from? 
+        		         \item The Mathematics of Z
+         	\end{itemize}
+	\item Structuring Specifications
+		\begin{itemize}
+			\item Top-level structures
+		\end{itemize}
+	\item Limitations of Formal Specifications
+	\item Two short Examples	
+
+\end{itemize}	
+
+\end{frame}
+
+
+\end{document}

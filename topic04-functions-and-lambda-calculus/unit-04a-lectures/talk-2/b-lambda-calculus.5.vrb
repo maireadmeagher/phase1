@@ -1,0 +1,9 @@
+\frametitle{Beta Reduction}
+
+When we apply a function to an argument, we
+\begin{itemize}
+\item substitute the input expression for all instances of bound variables within the body of the abstraction
+\item eliminate the head of the abstraction (its only purpose was to bind a variable)
+\end{itemize}
+This process is called beta reduction.
+

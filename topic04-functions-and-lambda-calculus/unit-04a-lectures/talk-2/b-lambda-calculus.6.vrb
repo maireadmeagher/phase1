@@ -1,0 +1,22 @@
+\frametitle{More Beta reduction}
+
+   \begin{center}
+   $\lambda x.x$
+   \end{center}
+   \pause
+   \begin{itemize}
+   \item We apply the function above to 2
+   \pause
+   \item substitute 2 for each bound variable in the body of the function, and
+   \pause
+   \item eliminate the head:
+   \end{itemize}
+   \begin{center}
+    \pause
+   $(\lambda x.x) \ 2  $ \\
+
+   \hspace*{.5in}2
+   \end{center}
+   \pause
+   The only bound variable is the single $x$, so applying this function to 2 returns 2. This function is the \textit{identity} function.
+
