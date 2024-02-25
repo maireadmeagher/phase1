@@ -1,9 +1,0 @@
-\beamer@sectionintoc {1}{The structure of lambda terms}{3}{0}{1}
-\beamer@sectionintoc {2}{Alpha equivalence}{4}{0}{2}
-\beamer@sectionintoc {3}{Beta reduction}{5}{0}{3}
-\beamer@sectionintoc {4}{Variables}{21}{0}{4}
-\beamer@sectionintoc {5}{Multiple arguments}{28}{0}{5}
-\beamer@sectionintoc {6}{Multiple arguments}{29}{0}{6}
-\beamer@sectionintoc {7}{Using lambda Calculus in Haskell}{30}{0}{7}
-\beamer@sectionintoc {8}{Using lambda Calculus in Haskell}{31}{0}{8}
-\beamer@sectionintoc {9}{Using lambda Calculus in Haskell}{32}{0}{9}
