@@ -513,6 +513,8 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def

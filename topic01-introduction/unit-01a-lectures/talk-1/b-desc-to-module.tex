@@ -7,6 +7,9 @@
 \usepackage{supertabular}
 \usepackage[lastexercise,answerdelayed]{exercise}
 \usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{colortbl}
+\definecolor{nextAssesment}{RGB}{34, 139, 34} % Define a custom color
 
 % for exercise 
 %% Change this for title information 
@@ -145,38 +148,42 @@ On completion of this module students should be able to: 
 \section{Assessment Breakdown} 
 \begin{table}
 \begin{center}
-    \begin{tabular}{|  c | c | c | c |  c |}
+    \begin{tabular}{|>{\columncolor{blue!10}}c | c | c | c |  c |}
         \hline
         \rowcolor{green!50}
-        GHCI lab test  & lab test Stack & Formative Assign & Prog Assign & Final Exam \\  
+        \cellcolor{blue!10} GHCI lab test  &\cellcolor{nextAssesment} lab test Stack & Formative Assign & Prog Assign & Final Exam \\  
     
     \hline
     \rowcolor{green!20!yellow!40}
-    5\% & 5\% & 0\% & 40\% & 50\% \\ 
+    \cellcolor{blue!10}5\% &\cellcolor{nextAssesment} 5\% & 0\% & 40\% & 50\% \\ 
+    \hline
     \rowcolor{red!60}
-    Week 4 & Week 7 & Week 9 & Week 11 & Exam Session \\ 
+    \cellcolor{blue!10}Week 4 &\cellcolor{nextAssesment} Week 8 & Week 9 & Week 11 & Exam Session \\ 
      \hline
      \rowcolor{red!60}
-    11:15 & 11:15 & 18:00 & 18:00 & tbc  \\ 
+     \cellcolor{blue!10}11:15 &\cellcolor{nextAssesment} 12:15 & 18:00 & 18:00 & tbc  \\ 
     
      \rowcolor{red!60}
-    Thur 8th Feb & Thur 7th March & Friday 22nd March & 19th  April & (exams office) \\ 
+   
+     \cellcolor{blue!10}Thur 8th Feb & \cellcolor{nextAssesment}Tues 12th March & Friday 22nd March & 19th  April & (exams office) \\ 
      \hline
     
      \hline
-     \rowcolor{blue!40}
     
-     & & &Interviews &\\ 
+   
      \rowcolor{blue!40}
-     & &  &Week 12/13  &\\ 
+     \cellcolor{blue!10}COMPLETED&\cellcolor{nextAssesment}NEXT ASSESMENT  & &Interviews &\\ 
+     \rowcolor{blue!40}
+     \cellcolor{blue!10}&\cellcolor{nextAssesment}&  &Week 12/13  &\\ 
 
 
      \hline
   
     \end{tabular}
-    \caption{Assignment Schedule}
+    \caption{Assignment Schedule - Updated 27/02}
     \label{tab:ass-schedule}   
-    
+
+     
 \end{center}
 \end{table}
 The asessment in this module is made up of continuous assessment during the module and a Final Exam at the end of the semester. 
