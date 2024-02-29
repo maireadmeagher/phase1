@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1706735054 "c-lambda-calculus-exercises.xdv" "c-lambda-calculus-exercises.pdf" "c-lambda-calculus-exercises" 1706735054 0
-  "c-lambda-calculus-exercises.xdv" 1706735054 20344 b348f12dcc6175761eeebd9e8cee5f9e "xelatex"
+["xdvipdfmx"] 1709207811 "c-lambda-calculus-exercises.xdv" "c-lambda-calculus-exercises.pdf" "c-lambda-calculus-exercises" 1709207811 0
+  "c-lambda-calculus-exercises.xdv" 1709207811 32504 4ad60274d4021bca9c9d8bb6348db831 "xelatex"
   (generated)
   "c-lambda-calculus-exercises.pdf"
   (rewritten before read)
-["xelatex"] 1706735053 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04b-exercises/talk-2/c-lambda-calculus-exercises.tex" "c-lambda-calculus-exercises.xdv" "c-lambda-calculus-exercises" 1706735054 0
-  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04b-exercises/talk-2/c-lambda-calculus-exercises.tex" 1706735053 6062 65608672a6b994c6f4084b8d5e7d9477 ""
+["xelatex"] 1709207810 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04b-exercises/talk-2/c-lambda-calculus-exercises.tex" "c-lambda-calculus-exercises.xdv" "c-lambda-calculus-exercises" 1709207811 0
+  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04b-exercises/talk-2/c-lambda-calculus-exercises.tex" 1709207810 6052 57bc8fd2528f0cecd202f19642783350 ""
   "/usr/local/texlive/2023/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty" 1676321701 151363 1f5971af3ef874d432e8fb43e0edb71d ""
   "/usr/local/texlive/2023/texmf-dist/tex/generic/babel/locale/en/babel-en.ini" 1661803479 3966 caeee5a9e5771d4446aa1ca9015ba1b2 ""
@@ -107,8 +107,8 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1704925870 10502814 4579b6be41004c192c05ee5984a35f35 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "c-lambda-calculus-exercises.aux" 1706735054 1224 0e538919117ce7f7e020070ea593a77a "xelatex"
-  "c-lambda-calculus-exercises.tex" 1706735053 6062 65608672a6b994c6f4084b8d5e7d9477 ""
+  "c-lambda-calculus-exercises.aux" 1709207811 1224 392c0f8579c634a33a0dbd23bd5aef4b "xelatex"
+  "c-lambda-calculus-exercises.tex" 1709207810 6052 57bc8fd2528f0cecd202f19642783350 ""
   (generated)
   "c-lambda-calculus-exercises.aux"
   "c-lambda-calculus-exercises.log"
