@@ -16,7 +16,7 @@ ignore         :
 #- topic05-list-comprehensions
 #- topic06-recursive-functions
 #- topic07-structuring-programs
-- topic08-higher-order-functions
+#- topic08-higher-order-functions
 - topic09-declaring-types-and-classes
 - topic10-interactive-prog
 - topic11-functors-applicatives

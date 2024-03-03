@@ -1,0 +1,40 @@
+# Fdb version 4
+["xdvipdfmx"] 1709461066 "a-exercises-hof.xdv" "a-exercises-hof.pdf" "a-exercises-hof" 1709461066 0
+  "a-exercises-hof.xdv" 1709461066 36200 fcec619299ff2375064d3899a382260c "xelatex"
+  (generated)
+  "a-exercises-hof.pdf"
+  (rewritten before read)
+["xelatex"] 1709461066 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic08-higher-order-functions/unit-08b-exercises/talk-1/a-exercises-hof.tex" "a-exercises-hof.xdv" "a-exercises-hof" 1709461066 0
+  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic08-higher-order-functions/unit-08b-exercises/talk-1/a-exercises-hof.tex" 1709461065 8834 759463126ce9e9b1c963c4b549787199 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls" 1667332637 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty" 1654720880 5319 48d7f3cfa322abd2788e3c09d624b922 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/size10.clo" 1667332637 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd" 1667332637 2430 8418b3f1835e588625becbcac4dbce56 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/exercise/exercise.sty" 1413931565 33079 0f704634f651d2aac08131a1a3b537c5 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1668028059 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def" 1663965824 14788 1dde73f396dd97d88c838bee2a352abe ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty" 1654720880 7233 e46ce9241d2b2ca2a78155475fdd557a ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty" 1654720880 18387 8f900a490197ebaf93c02ae9476d4b09 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty" 1654720880 8010 a8d949cbdbc5c983593827c9eec252e1 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1667332637 2885 9c645d672ae17285bba324998918efd8 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty" 1654720880 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1673989714 32346 879686206fa618f4f5073ad4bd48feda ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg" 1677530001 1829 d8258b7d94f5f955e70c623e525f9f45 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty" 1677530001 80947 75a96bb4c9f40ae31d54a01d924df2ff ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty" 1677530001 205154 31132370016e8c97e49bc3862419679b ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty" 1677530001 93648 37f37f89a55d35f95036cd331d48114f ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty" 1677530001 77021 d05e9115c67855816136d82929db8892 ""
+  "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
+  "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1704925870 10502814 4579b6be41004c192c05ee5984a35f35 ""
+  "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
+  "a-exercises-hof.aux" 1709461066 1703 360587d5c518496f1b34545f3706d8a0 "xelatex"
+  "a-exercises-hof.tex" 1709461065 8834 759463126ce9e9b1c963c4b549787199 ""
+  (generated)
+  "a-exercises-hof.aux"
+  "a-exercises-hof.log"
+  "a-exercises-hof.xdv"
+  (rewritten before read)

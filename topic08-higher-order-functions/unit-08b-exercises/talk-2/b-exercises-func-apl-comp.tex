@@ -1,0 +1,139 @@
+\documentclass{article}
+
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage[lastexercise, noanswer]{exercise}   %--put in noanswer when solutions are not to be shown
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+
+\lstset{frame=tb,
+  language=Haskell,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+  }
+%% Change this for title information 
+\newcommand\ExTitle{Function Application and Function Composition}
+
+\newcommand\fullExTitle{Exercises \\ \ExTitle }
+\newcommand\footerExTitle{\ExTitle -\  Exercises }
+
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{\footerExTitle} % other info in "inner" position of footer line
+
+%\usepackage[mathrm,colour,cntbysection]{czt}
+
+\begin{document}
+\begin{Huge}
+	\begin{center}
+	\fullExTitle
+	\end{center}
+\end{Huge}
+
+\begin{Exercise}[title={Using \$}]
+
+Write \textbf{bigCubes} that takes a list and returns a list of cubes that are $>$ 500
+\begin{lstlisting}
+bigCubes :: [Int] -> [Int]
+  \end{lstlisting}
+\end{Exercise}
+\begin{Answer}
+  \begin{lstlisting}
+bigCubes :: [Int] -> [Int]
+bigCubes xs = filter (>500) $ map (^3) xs
+  \end{lstlisting}
+\end{Answer}
+\begin{Exercise} [title={Using \$ and .}]
+  Write \textbf{lottaBiggest} that takes a list and replicates the largest element 4 times. 
+  \begin{lstlisting}
+  lottaBiggest :: [Int] -> [Int]
+  e.g.
+  lottaBiggest [2,5,3,1] = [5,5,5,5]
+  \end{lstlisting}
+  \textbf{Hint:} You can use the \textit{maximum} function that returns the maximum value in a numeric list. 
+\end{Exercise}
+\begin{Answer}
+  Using \$  :
+  \begin{lstlisting}   
+lottaBiggest :: [Int] -> [Int]
+lottaBiggest xs = replicate 4  $ maximum xs
+      \end{lstlisting}
+
+or (using function composition)
+\begin{lstlisting}
+lottaBiggest' :: [Int] -> [Int]
+lottaBiggest'  = replicate 4  . maximum 
+          \end{lstlisting}
+\end{Answer}
+\pagebreak
+\begin{Exercise} [title={Using \$}]
+Write \textbf{powers} that takes a number and creates a list of that number squared, cubed, and quadrupled. 
+\begin{lstlisting}[language=Haskell]
+e.g. powers 2 = [4,8,16]
+  \end{lstlisting}
+\end{Exercise} 
+\begin{Answer}
+  \begin{lstlisting}[language=Haskell]
+
+powers:: Int -> [Int]
+powers x =  map ($x) [(^2),(^3) ,(^4) ] 
+\end{lstlisting}
+\end{Answer}
+
+\begin{Exercise}[title={Using \$}]
+Assume people are dining. We have a list of tip percents (assume people tip at different rates):\\
+\begin{lstlisting}[language=Haskell]
+e.g.  pcts = [0.15, 0.2, 0.21]  
+\end{lstlisting} 
+We have a list of bills (what people owe, minus tip)  \\
+\begin{lstlisting}[language=Haskell]
+e.g. amts = [20.5, 30, 25] 
+\end{lstlisting} 
+Write \textbf{calcBill }that takes amts and pcts and calculates what each person will pay, based on their amt and pct. 
+Then apply a 4\% tax rate.
+
+\begin{lstlisting}[language=Haskell]
+calcBillamtspcts :: [Float] -> [Float] -> Float
+calcBillamtspcts  [20.5, 30, 25] [0.15, 0.2, 0.21]   = [24.518,37.44,31.46]
+\end{lstlisting} 
+\end{Exercise} 
+\begin{Answer}
+\begin{lstlisting}[language=Haskell]
+calcBillamtspcts :: [Float] -> [Float] -> [Float]
+calcBillamtspcts amts tips =map (*1.04) $ zipWith (+) amts $ 
+                                                      zipWith (*) amts  tips
+   -- rightmost calculates tips , next adds tips, then add 4%
+\end{lstlisting} 
+\end{Answer}
+
+
+
+
+% \newpage
+% \begin{Huge}
+% \begin{center}
+% Solutions
+% \end{center}
+% \end{Huge}
+% \shipoutAnswer
+
+\end{document}
