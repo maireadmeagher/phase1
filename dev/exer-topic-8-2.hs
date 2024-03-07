@@ -14,7 +14,7 @@ lottaBiggest'  = (replicate 4 ) . maximum
 -- Write powers that takes a number and creates a list of that number squared, cubed, and quadrupled. 
 -- powers 2 => [4,8,16]
 powers:: Int -> [Int]
-powers x =  map ($x) [(^2),(^3) ,(^4) ] 
+powers x =  map ($ x) [(^2),(^3) ,(^4) ] 
 
 -- Exercise 4
 -- Assume people are dining. We have a list of tip percents (assume people tip at different rates):
