@@ -25,6 +25,9 @@ dependencies:
 - pandoc # >= 2.0 && < 3.0
 - pandoc-types
 - bytestring
+- cassava
+- vector
+- split
 
 - text
 

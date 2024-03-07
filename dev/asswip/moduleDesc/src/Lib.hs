@@ -11,6 +11,8 @@ clean :: String -> [String]
 
 clean d = splitOn  '\n' d   --litOn' "\n" csvData
 
+
+
 removePre :: String -> String 
 removePre ('\65279':xs) = xs 
 removePre xs = xs

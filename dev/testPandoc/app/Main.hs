@@ -19,14 +19,26 @@ import Data.Text.Encoding (decodeUtf8)
 import Text.Pandoc
 import Data.ByteString.Lazy (toStrict)
 
+-- main :: IO ()
+-- main = do
+     -- let textContent = T.pack "This is some text content."
+     -- let pandocDocument = Pandoc nullMeta [Plain [Str textContent]]
+     -- TIO.writeFile "output.docx" $ decodeUtf8 (toStrict $ writeDocx def pandocDocument)
+
+
+import System.Process
+
 main :: IO ()
 main = do
-     let textContent = T.pack "This is some text content."
-     let pandocDocument = Pandoc nullMeta [Plain [Str textContent]]
-     TIO.writeFile "output.docx" $ decodeUtf8 (toStrict $ writeDocx def pandocDocument)
-
-
-
+    let inputFile = "data/module.docx"
+        outputFile = "module.md"
+    -- Convert .docx to HTML using Pandoc
+    _ <- system $ "pandoc -s " ++ inputFile ++ " -o temp.html"
+    -- Convert HTML to Markdown using Pandoc
+    _ <- system $ "pandoc -s temp.html -o " ++ outputFile
+    -- Clean up temporary HTML file
+--     _ <- system "rm temp.html"
+    putStrLn "Conversion complete."
 
 -- -- ...
 

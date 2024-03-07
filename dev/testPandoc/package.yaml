@@ -49,6 +49,7 @@ executables:
     - text
     - pandoc
     - bytestring
+    - process
 
 tests:
   testPandoc-test:

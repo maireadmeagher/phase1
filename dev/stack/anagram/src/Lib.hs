@@ -11,4 +11,4 @@ import qualified Data.Text as T
 
 -- sentence = T.pack "hello world"
 makeTitle :: T.Text -> T.Text
-makeTitle  ts = T.toTitle ts
+makeTitle  = T.toTitle 

@@ -1,58 +1,96 @@
+{-# LANGUAGE DeriveGeneric #-}
+{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE RecordWildCards #-}
+
+
 module ModuleData where
 
 
 import qualified Data.Char as C
+import GHC.Generics
 
 
-data ModuleModel = ModuleModel {
-    moduleCode :: String,
-    moduleFullTitle :: String,
-    moduleIndContent :: [String],
-    moduleLearningOutcomes :: [String]
-    -- modulePath :: String,
-    -- moduleImports :: [String],
-    -- moduleExports :: [String],
-    -- moduleFunctions :: [String],
-    -- moduleTypeDeclarations :: [String],
-    -- moduleDataDeclarations :: [String],
-    -- moduleClassDeclarations :: [String],
-    -- moduleInstanceDeclarations :: [String],
-    -- moduleComment :: String
-} deriving (Show, Eq)
+-- data ModuleModel = ModuleModel {
+--     moduleCode :: String,
+--     moduleFullTitle :: String,
+--     moduleCredits :: Int,
+--     moduleIndContent :: [String],
+--     moduleLearningOutcomes :: [String]
+--     -- modulePath :: String,
+--     -- moduleImports :: [String],
+--     -- moduleExports :: [String],
+--     -- moduleFunctions :: [String],
+--     -- moduleTypeDeclarations :: [String],
+--     -- moduleDataDeclarations :: [String],
+--     -- moduleClassDeclarations :: [String],
+--     -- moduleInstanceDeclarations :: [String],
+--     -- moduleComment :: String
+-- } deriving (Show, Eq)
+ 
+data HeaderModel = HeaderModel {
+    headerModuleCode :: String,
+    headerModuleFullTitle :: String,
+    headerModuleCredits :: String,
+    headerModuleIndContent :: String,
+    headerModuleLearningOutcomes :: String
+} deriving (Show, Eq, Generic)
 
 
-moduleData :: [String] -> ModuleModel
-moduleData t = ModuleModel {
-    moduleCode = getModuleCode t,
-    moduleFullTitle = getModuleFullTitle t,
-    moduleIndContent= getModuleIndContent t,
-    moduleLearningOutcomes = getModuleLearningOutcomes t
-    -- modulePath = getModulePath t,
-    -- moduleImports = getModuleImports t,
-    -- moduleExports = getModuleExports t,
-    -- moduleFunctions = getModuleFunctions t,
-    -- moduleTypeDeclarations = getModuleTypeDeclarations t,
-    -- moduleDataDeclarations = getModuleDataDeclarations t,
-    -- moduleClassDeclarations = getModuleClassDeclarations t,
-    -- moduleInstanceDeclarations = getModuleInstanceDeclarations t,
-    -- moduleComment = getModuleComment t
+-- moduleData :: [String] -> ModuleModel
+-- moduleData t = ModuleModel {
+--     moduleCode = getModuleCode t,
+--     moduleFullTitle = getModuleFullTitle t,
+--     moduleCredits = getModuleCredits t,
+--     moduleIndContent= getModuleIndContent t,
+--     moduleLearningOutcomes = getModuleLearningOutcomes t
+--     -- modulePath = getModulePath t,x 
+--     -- moduleImports = getModuleImports t,
+--     -- moduleExports = getModuleExports t,
+--     -- moduleFunctions = getModuleFunctions t,
+--     -- moduleTypeDeclarations = getModuleTypeDeclarations t,
+--     -- moduleDataDeclarations = getModuleDataDeclarations t,
+--     -- moduleClassDeclarations = getModuleClassDeclarations t,
+--     -- moduleInstanceDeclarations = getModuleInstanceDeclarations t,
+--     -- moduleComment = getModuleComment t
+-- }
+
+headerData :: [String] -> HeaderModel
+headerData (mCode:mTitle:mCredits:mIndContent:mLearningOutcomes:_) = HeaderModel {
+    headerModuleCode = mCode,
+    headerModuleFullTitle = mTitle,
+    headerModuleCredits = mCredits,
+    headerModuleIndContent = mIndContent,
+    headerModuleLearningOutcomes = mLearningOutcomes
 }
+
 -- These are the functions that will be used to extract the data from the module description for one module
 getModuleCode :: [String] -> String   -- no validation yet
 getModuleCode (t:_) = if True then t else "Module heading is missing or incorrectly formatted"
 
 getModuleFullTitle :: [String] -> String
 getModuleFullTitle (_:t:_) = if True then t else "Module Name is missing or incorrectly formatted"
+
+getModuleCredits :: [String] -> Int
+getModuleCredits (_:_:t:_) = if True then read t else 0
+
+getVerifiedModuleCode :: (String-> Bool) -> [String] -> String   -- no validation yet
+getVerifiedModuleCode p (t:_) = if p t  then t else "Module heading is missing or incorrectly formatted"
+
+
  
     -- case (splitOn "," t) of
     --     (x:_ ) -> if True then x else  "Module heading is missing or incorrectly formatted"
     --     _ ->  "Module heading is missing"
 
 getModuleIndContent :: [String] -> [String]
-getModuleIndContent (_:_:t:_)  =  
-    case (splitOn' "\n" t) of
-       xs  -> if True then xs else ["Indicative content incorrectly formatted"]
-       _ -> ["Indicative content is missing"]
+getModuleIndContent (_:_:t:_)  =   
+    case head t of
+        '\"' -> if True then splitOn' "\n" $ takeWhile (/= '\"') t else ["Indicative content incorrectly formatted"]
+        otherwise -> if True then splitOn' "\n" t else ["Indicative content incorrectly formatted"]
+    
+    -- case (splitOn' "\n" t) of
+    --    xs  -> if True then xs else ["Indicative content incorrectly formatted"]
+    --    _ -> ["Indicative content is missing"]
 getModuleLearningOutcomes :: [String] -> [String]
 getModuleLearningOutcomes (_:_:_:t:_)  =  
     case (splitOn' "\n" t) of

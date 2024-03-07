@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1705574883 "b-exercises-functions.xdv" "b-exercises-functions.pdf" "b-exercises-functions" 1705574883 0
-  "b-exercises-functions.xdv" 1705574883 51500 ef0b40f43dbf27c552d20b7d0510f5cf "xelatex"
+["xdvipdfmx"] 1709807243 "b-exercises-functions.xdv" "b-exercises-functions.pdf" "b-exercises-functions" 1709807243 0
+  "b-exercises-functions.xdv" 1709807243 91128 4e82a1efa7b65a0a62f50ea4fd8b1a75 "xelatex"
   (generated)
   "b-exercises-functions.pdf"
   (rewritten before read)
-["xelatex"] 1705574882 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04b-exercises/talk-1/b-exercises-functions.tex" "b-exercises-functions.xdv" "b-exercises-functions" 1705574883 0
-  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04b-exercises/talk-1/b-exercises-functions.tex" 1705574882 11729 08c85fb7a36439b49f362fe2ff4c377b ""
+["xelatex"] 1709807243 "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04b-exercises/talk-1/b-exercises-functions.tex" "b-exercises-functions.xdv" "b-exercises-functions" 1709807243 0
+  "/Users/maireadmeagher/Documents/GitRepos/fp-24/topic04-functions-and-lambda-calculus/unit-04b-exercises/talk-1/b-exercises-functions.tex" 1709807242 11719 34e48fcc6014dcaa9a299abf28b349c5 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls" 1667332637 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty" 1654720880 5319 48d7f3cfa322abd2788e3c09d624b922 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/size10.clo" 1667332637 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
@@ -31,8 +31,8 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1704925870 10502814 4579b6be41004c192c05ee5984a35f35 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "b-exercises-functions.aux" 1705574883 1983 3133de35faf7a10dc5c03ddda0b6c38f "xelatex"
-  "b-exercises-functions.tex" 1705574882 11729 08c85fb7a36439b49f362fe2ff4c377b ""
+  "b-exercises-functions.aux" 1709807243 1983 29db6b087faad6bccb113803342a16f6 "xelatex"
+  "b-exercises-functions.tex" 1709807242 11719 34e48fcc6014dcaa9a299abf28b349c5 ""
   "img/01.jpg" 1696251142 11844 6445814b3a9b7b8dabab20210769b650 ""
   "img/02.jpg" 1696251142 11916 011a5026f8f302b5bd625e7bf7193031 ""
   "img/03.jpg" 1696251142 12387 ed1a498d81b046d051e4d060b933aadd ""
