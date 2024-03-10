@@ -5,6 +5,7 @@ import qualified Data.ByteString.Lazy as BL
 import qualified Data.Vector as V
 import ModuleParser
 import FormatModules
+import Validation
 
 
 main :: IO ()
@@ -33,6 +34,6 @@ main = do
             mapM_ (putStrLn . formatModule) moduleModels
            -- putStrLn $ fmap formatModule records
 
-
+    print $ isValid "hello  "
      
 
